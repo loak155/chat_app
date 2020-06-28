@@ -21,3 +21,8 @@
   border-color: #6c757d;
   cursor: auto;
 }
+
+// ユーザーがフォームサイズを自由に変更できる機能を停止させておく
+#message_content {
+  resize: none;
+}
